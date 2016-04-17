@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.feature 'Users can can edit existing posts' do
+RSpec.feature 'Users can edit existing posts' do
   before do
     FactoryGirl.create(:post,
        title: 'Test post',
