@@ -3,8 +3,8 @@ require 'rails_helper'
 RSpec.feature 'Users can edit existing posts' do
   before do
     FactoryGirl.create(:post,
-       title: 'Test post',
-       body: 'Content for test post')
+                       title: 'Test post',
+                       body: 'Content for test post')
 
     visit '/'
     click_link 'Test post'
